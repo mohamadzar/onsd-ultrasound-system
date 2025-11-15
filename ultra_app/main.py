@@ -1,7 +1,7 @@
 # ultra_app/main.py
 
 from ultra_app.interface_adapters.processor_ultra import ULTRAProcessor
-
+from ultra_app.interface_adapters.report_writer import ReportWriter
 from ultra_app.interface_adapters.presenter import OperationPresenter
 from ultra_app.interface_adapters.camera_opencv import OpenCVCamera
 
